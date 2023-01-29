@@ -1,0 +1,48 @@
+.main{
+    background-color: var(--neutral-900);
+    color: var(--neutral-50);
+
+    width: 100%;
+    height: 80vh;
+}
+
+.destaque{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-column{
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-column h1{
+    font-size: 4rem;
+    width: 450px;
+}
+
+.text-column p{
+    color: var(--neutral-400);
+    width: 350px;
+}
+
+.bg-column{
+    min-width: 40%;
+    height: 80vh;
+    background-image: url('/assets/images/destaque-left-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.bg-column img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}

@@ -9,12 +9,20 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color:var(--neutral-800) !important;
+
+}
+
+a{
+    text-decoration: none !important;
+    color:var(--neutral-800) !important;
 }
 
 .container{
+    padding: 0 !important;
     max-width: 1150px;
     width: 100%;
-    margin: auto;
+    margin: auto !important;
     overflow: hidden;
 }
 
@@ -51,7 +59,7 @@ p{
     --neutral-500: #9E9CAF;
     --neutral-400: #C5C4D6;
     --neutral-300: #D5D4E4;
-    --neutral-200: #E6E4F0;
+    --neutral-200: #F1F1F8;
     --neutral-100: #F1F1F8;
     --neutral-50: #FFFFFF;
 }

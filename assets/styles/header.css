@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px !important;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: small;
+}
+
+.logo-header{
+    width: 150px;
+}
+
+.contact-btn{
+    padding: 10px 20px;
+    background-color: var(--neutral-200);
+    border-radius: 5px;
+}
